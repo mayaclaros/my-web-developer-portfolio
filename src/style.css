@@ -16,20 +16,28 @@ h4,
 h5,
 h6 {
   color: black;
-  font-size: 96px;
   font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 64px;
+}
 p {
   font-family: "Poppins", sans-serif;
-  font-weight: 100;
+  font-weight: normal;
   font-style: normal;
-  padding: 160px 20px;
+  font-size: 16px;
 }
 
 .hero {
   background: var(--secondary-color);
   text-align: center;
+  padding: 160px 20px;
 }
 
 .hero p {
@@ -40,7 +48,7 @@ p {
 }
 
 .hero h2 {
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
@@ -50,6 +58,15 @@ p {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
