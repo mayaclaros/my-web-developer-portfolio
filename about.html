@@ -29,10 +29,40 @@
     ></script>
   </head>
   <body>
-    <div class="about-section container">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/logo-shecodes.png"
+          class="logo d-none d-md-block"
+          alt="SheCodes large logo"
+        />
+        <img
+          src="images/small-logo.jpg"
+          class="logo d-block d-md-none"
+          alt="SheCodes Small logo"
+        />
+        <ul>
+          <li><a href="/index.html" title="Homepage">Home</a></li>
+          <li class="active">
+            <a
+              href="/about.html"
+              title="About Maya Claros, Personal Biography and brief resume"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="/work.html" title="Maya Claros' Work Portfolio">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Maya Claros">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
-          <div class="about-section-content">
+          <div class="content">
             <h1 class="mb-4">Hi! I am Maya Claros</h1>
             <h2 class="mb-4">Frontend Developer, based in the United States</h2>
             <p class="mb-4">
@@ -42,7 +72,7 @@
               world of life sciences. I’m eager to connect with fellow
               developers and share ideas, so feel free to reach out!
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -55,4 +85,69 @@
       </div>
     </div>
   </body>
+  <footer class="container">
+    <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+      <div>
+        <h4>Work Inquiry</h4>
+        <p class="text-muted">Let's Work Together</p>
+      </div>
+      <div>
+        <a
+          href="/contact.html"
+          class="btn btn-branding"
+          title="Contact Maya Claros"
+          >Contact me</a
+        >
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center mb-5">
+      <a
+        href="mailto:mayawclaros@gmail.com"
+        class="email-link"
+        title="Email address to email Maya Claros"
+        >mayawclaros@gmail.com</a
+      >
+    </div>
+    <div class="social-links d-flex justify-content-center">
+      <a
+        href="https://www.instagram.com/justmeomaya"
+        target="_blank"
+        title="Instagram Prolife"
+      >
+        <i class="fa-brands fa-instagram"></i
+      ></a>
+      <a href="https://www.github.com/mayaclaros"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a href="https://www.twitter.com/justmeomaya"
+        ><i class="fa-brands fa-twitter"></i
+      ></a>
+    </div>
+
+    <p class="text-center">
+      This project was coded by
+      <a
+        href="https://www.justmeomaya.com"
+        target="_blank"
+        title="Personal blog of Maya Claros"
+        >Maya Claros</a
+      >
+      and it is open-sourced on
+      <a
+        href="https://www.github.com/mayaclaros"
+        target="_blank"
+        title="GitHub Profile for this project by Maya Claros"
+      >
+        Github</a
+      >
+      and hosted by
+      <a
+        href="https://maya-claros-portfolio.netlify.app/"
+        target="_blank"
+        title="Netlify profile of this project by Maya Claros"
+      ></a
+      >Netlify
+    </p>
+  </footer>
 </html>
