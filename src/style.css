@@ -196,18 +196,25 @@ footer .social-links a:hover {
   }
 
   .hero {
-    padding: 80px 20px;
     text-align: center;
+    padding: 20px;
   }
 
   .content {
     text-align: center;
-    padding: 0;
+    padding: 20px;
   }
   .project-description {
     text-align: center;
     padding: 0;
   }
+
+  .container {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
   .img-thumbnail {
     width: 100px;
   }
